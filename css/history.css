@@ -1,0 +1,121 @@
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: #eee;
+     font-family: sans-serif;
+     color: #333;
+     margin: 0;
+ }
+
+ h1 {
+     font-size: 25px;
+     text-align: center;
+ }
+
+ html {
+     font-family: -apple-system, sans-serif;
+     color: #333;
+     background: #f5f5f5;
+ }
+
+ pre {
+     background: #444;
+     color: #fff;
+     padding: 10px;
+     margin: 5px 0;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+ }
+
+ .container {
+     max-width: 600px;
+     margin: 0 auto;
+     overflow: auto;
+ }
+
+ .container>* {
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+ .comment {
+     opacity: .4;
+     display: inline-block;
+ }
+
+ .search-group input,
+ .search-group button {
+     display: inline-block;
+     font-size: 15px;
+     vertical-align: top;
+     height: 48px;
+     font-size: 15px;
+     padding: 10px 20px;
+     outline: 0;
+     border: 1px solid #ccc;
+ }
+
+ .search-group {
+     font-size: 0;
+ }
+
+ .search-group input {
+     width: 80%;
+ }
+
+ .search-group button {
+     width: 20%;
+     border-left: 0;
+ }
+
+ #historyBox {
+     background: #fff;
+     border: 1px solid rgba(0, 0, 0, .2);
+     border-top: 0;
+     font-size: 14px;
+     width: 480px;
+     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+     -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+     cursor: default;
+     z-index: 1;
+     position: fixed;
+ }
+
+ .history {
+     padding: 10px 20px;
+     font-size: 0;
+ }
+
+ .history:hover {
+     background: rgba(0, 0, 200, .1);
+ }
+
+ .history .text,
+ .history .tool {
+     vertical-align: middle;
+     display: inline-block;
+ }
+
+ .history .text {
+     width: 70%;
+     font-size: 1rem;
+ }
+
+ .history .tool {
+     display: none;
+     width: 30%;
+     font-size: .8rem;
+     text-align: right;
+     cursor: pointer;
+     color: #aaa;
+ }
+
+ .history:hover .tool {
+     display: inline-block;
+ }
